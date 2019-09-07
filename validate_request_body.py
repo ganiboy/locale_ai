@@ -21,7 +21,6 @@ def validate_date(data, key):
         validate_params(data[key], str, "%s data type mismatch, %s expected to be date string" % (key, key))
         if data[key]:
             if data[key] != datetime.strptime(data[key], "%m/%d/%Y %H:%M:%S").strftime("%-m/%-d/%Y %-H:%M:%S"):
-                print("I come here ")
                 raise ValidationError("%s format mismatch, please send month/date/year hour:minute:seconds " % key,
                                       status.HTTP_400_BAD_REQUEST)
     except KeyError:
