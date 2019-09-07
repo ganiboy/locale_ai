@@ -26,18 +26,18 @@ As I go through the task, this is the one of the problem statement and there are
 about to come so I came up with micro-service architecture. Because micro-services are easy to maintain,
 light weight as well as independently deployable.  
 
-Tech stack: Python
+**Tech stack**: Python
 
-Web Framework: Flask
+**Web Framework**: Flask
 
 When it comes to deploying flask application I would say we can deploy in AWS Lamda which is serverless 
 or else we could deploy in EC2 instance. I would prefer deploying in EC2 instances along with load balancer 
 because if I create lambda functions then migrating our applications from AWS services to any other 
 cloud service would take bit large time. 
 
-Deployment: EC2 instance (along with load-balancer), AWS - RDS for PosgreSQL 
+**Deployment**: EC2 instance (along with load-balancer), AWS - RDS for PosgreSQL 
 
-Postgresql Tables: 
+**Postgresql Tables**: 
 
 cab_drivers: 
 
@@ -65,9 +65,9 @@ This schema contains all other booking details.
 expected datatype and datetime format. If there is any mismatch it would throw  ValidationError with detailed error 
 message for that particular parameter.
 
-5. **app.py**: This contains the view function which is responsible for sending a resposne.
+5. **app.py**: This contains core function which is responsible for accepting a request and returning response.
 
-Few Unit Test Results:
+**Unit Test Results:**
 
 End Point: /xride_data
 
@@ -103,13 +103,13 @@ body: {"booking_id": 132512,"user_id": 22177,"vehicle_model_id": "28","package_i
 Response: {"error_message": "booking_created format mismatch, please send month/date/year hour:minute:seconds ", 
 "status": "Failed"}
 
-Design if enough source and time were given:
+**Design if enough source and time were given**:
 
 1. Would have created swagger document.
 2. Added efficient logs and would have created a real time data ingestion to Elasticsearch.
 3. Slice and dice with the data present in elasticsearch using Kibana dashboards.
 
-Design of Real time data ingestion:
+**Design of Real time data ingestion**:
 
 1. I have created a pip package called **cloud-kafka-handler** https://pypi.org/project/Cloud-Kafka-Logger/ which will 
 push all the log data to specific Kafka topic.
