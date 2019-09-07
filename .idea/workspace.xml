@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1722175b-95cc-4640-97e3-c5a683c740f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,14 +36,14 @@
         <counts>
           <entry key="dummy" value="13" />
           <entry key="ini" value="67" />
-          <entry key="md" value="3380" />
+          <entry key="md" value="3453" />
           <entry key="py" value="931" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="67" />
-          <entry key="Markdown" value="3380" />
+          <entry key="Markdown" value="3453" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="931" />
         </counts>
@@ -59,7 +57,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="690">
-                <caret line="121" column="898" selection-start-line="121" selection-start-column="898" selection-end-line="121" selection-end-column="898" />
+                <caret line="121" column="64" selection-start-line="121" selection-start-column="64" selection-end-line="121" selection-end-column="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -362,7 +360,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="690">
-            <caret line="121" column="898" selection-start-line="121" selection-start-column="898" selection-end-line="121" selection-end-column="898" />
+            <caret line="121" column="64" selection-start-line="121" selection-start-column="64" selection-end-line="121" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>
